@@ -1,6 +1,7 @@
 import { QueryCache } from "@tanstack/react-query";
 // const apiURL = "https://p  latinobe.adaptable.app";
-const apiURL = "http://localhost:5000";
+const apiURL = "https://kkc.vercel.app";
+// const apiURL = "http://localhost:5000";
 const queryCache = new QueryCache({
   onError: (error) => {
     console.log(error);
