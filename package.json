@@ -1,31 +1,28 @@
 {
-  "name": "argon-dashboard-react",
+  "name": "kkc",
   "version": "1.2.4",
-  "description": "React version of Argon Dashboard by Creative Tim",
+  "homepage": "https://arsalanmm010.github.io/kkc",
+  "description": "kkc web app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-dashboard-react.git"
+    "url": "git+https://github.com/arsalanmm010/kkc"
   },
   "keywords": [
     "react",
     "reactjs",
-    "argon",
-    "argon-react",
-    "dashboard",
-    "dashboard-react",
-    "argon-dashboard",
-    "argon-dashboard-react"
+    "kkc"
   ],
-  "author": "Creative Tim",
+  "author": "Arsalan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-dashboard-react/issues"
+    "url": "https://github.com/arsalanmm010/kkc/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-dashboard-react/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -62,6 +59,7 @@
     "sass": "1.69.5"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9"
   },
